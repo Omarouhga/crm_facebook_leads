@@ -7,6 +7,8 @@
         <field name="inherit_id" ref="crm.res_config_settings_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//form" position="inside">
+            <app data-string="crm facebook" string="crm facebook settings" name="crm_facebook_settingss">
+
                 <div id="crm_facebook_settings">
                     <h2>Facebook Leads Settings</h2>
                     <div class="row mt16 o_settings_container">
@@ -86,6 +88,7 @@
                         </div>
                     </div>
                 </div>
+                </app>
             </xpath>
         </field>
     </record>
